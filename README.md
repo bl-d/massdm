@@ -1,2 +1,2 @@
 # massdm
-mass dm friends list
+Mass dm friends list.
