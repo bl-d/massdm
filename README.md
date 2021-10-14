@@ -1,2 +1,2 @@
 # massdm
-Mass dm friends list.
+Basic script to dm everyone in your friends list
