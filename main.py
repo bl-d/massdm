@@ -4,11 +4,11 @@ import colorama
 from colorama import init, Fore, Back, Style
 
 client = discord.Client()
-print(f"\n {Fore.RED}╦╔═╦═╗╔═╗═╗ ╦  ╔╦╗╔═╗╔═╗╔═╗╔╦╗╔╦╗ \n ╠╩╗╠╦╝╔═╝╔╩╦╝ {Fore.RESET} ║║║╠═╣╚═╗╚═╗ ║║║║║ \n ╩ ╩╩╚═╚═╝╩ ╚═  ╩ ╩╩ ╩╚═╝╚═╝═╩╝╩ ╩")
+
 token = input('Enter your token:\n')
 message = input('Message to send:\n')
-krzx = input("Press enter to start mass dming . . .")
-os.system(f'title [Massdm]- {client.user}')
+
+os.system(f'title [Massdm] - {client.user}')
 
 @client.event
 async def on_connect():
